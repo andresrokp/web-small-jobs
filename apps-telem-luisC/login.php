@@ -20,13 +20,13 @@
         <small>Por: Luis Ceballos</small>
     </div>
     <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light" autocomplete="off" action="index.php" method="post">
+        <form class="p-4 p-md-5 border rounded-3 bg-light" autocomplete="off" action="admin.php" method="post">
         <div class="form-floating mb-3">
-            <input class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off">
+            <input name="eluser" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off">
             <label for="floatingInput">Usuario</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="off">
+            <input name="elpass" type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="new-password">
             <label for="floatingPassword">Contraseña</label>
         </div>
         <div class="checkbox mb-3">
